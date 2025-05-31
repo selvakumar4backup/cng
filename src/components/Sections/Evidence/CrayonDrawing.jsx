@@ -5,7 +5,7 @@ export default function CrayonDrawing({selectedSidebarTab}) {
   return (
     <Box>
       <Typography role="region"
-      aria-labelledby="crayon-drawing-heading" variant="h6" sx={{ textTransform: 'capitalize', fontWeight: 'bold', 
+      aria-labelledby="crayon-drawing-heading" sx={{ textTransform: 'capitalize', fontWeight: 600, 
         fontSize: '1.125rem', fontFamily: 'Work Sans, sans-serif', color: '#22242C' }}> 
         {selectedSidebarTab}
       </Typography>

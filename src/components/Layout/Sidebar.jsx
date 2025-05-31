@@ -181,6 +181,7 @@ const Sidebar = ({
                   textOverflow: 'ellipsis',
                   textAlign: 'left',
                   color: activeTab === tab ? '#252525' : '#454545', // Set color based on active state
+                  fontWeight: activeTab === tab ? 600 : 400,
                 }}
                 tabIndex={0}
                 aria-label={`${tab}`}
@@ -239,8 +240,8 @@ const Sidebar = ({
         }}
         sx={{
           position: 'absolute',
-          bottom: 15,
-          left: 2,
+          bottom: 18,
+          left: 0.5,
           right: 24,
           width: 178,
           height: '40px',

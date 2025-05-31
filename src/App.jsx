@@ -340,7 +340,7 @@ function App() {
           /> 
         </Box>
 
-        <Grid container spacing={0.5} mt={1.5} sx={{ height: 531, minHeight: 400, maxWidth: 1024, width: 1024 }}>
+        <Grid container spacing={1} mt={2} ml={1} sx={{ height: 531, minHeight: 400, maxWidth: 1024, width: 1024 }}>
           <Sidebar
             tabs={tabs}
             color={color}
@@ -366,7 +366,7 @@ function App() {
               }}
             >
               <Box id="main-content" sx={{ p: 2, minHeight: 458, 
-                height: 420, width: 754, maxWidth: 754, 
+                height: 420, width: 740, maxWidth: 754, 
                 boxSizing: 'border-box' }}>
                 {selectedSidebarTab === 'Parenting Time' ? (
                   <>

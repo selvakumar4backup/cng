@@ -10,7 +10,7 @@ export default function ParentingTime({selectedSidebarTab}) {
       <Box sx={{
         minHeight: 400,
         height: 400,
-        width: 725,
+        width: 710,
         overflowY: 'auto',
         borderRadius: 1,
       }}>

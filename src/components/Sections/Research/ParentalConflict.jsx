@@ -24,7 +24,7 @@ export default function ParentalConflict({ selectedSidebarTab }) {
         sx={{
           minHeight: 400,
           height: 400,
-          width: 725,
+          width: 710,
           overflowY: 'auto',
           borderRadius: 1,
         }}

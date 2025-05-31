@@ -71,20 +71,21 @@ export default function Instruction({
 
   return (
     <Box role="region"
-  aria-labelledby="instruction-heading" sx={{ width: 740, height: 521, 
+  aria-labelledby="instruction-heading" sx={{ width: 710, height: 521, 
   display: 'flex', flexDirection: 'column', 
   justifyContent: 'flex-start',
   boxShadow: 'none',
   borderColor: 'solid #D4D4D4',
   boxSizing: 'border-box',
   }}>
-      <Box display="flex" justifyContent="space-between" alignItems="flex-start" sx={{ width: '96%', gap: 2, mb: 0 }}>
+      <Box display="flex" justifyContent="space-between" alignItems="flex-start" sx={{ width: '100%', gap: 2, mb: 0 }}>
         <Typography
           sx={{
             textTransform: 'capitalize',
             fontWeight: 'bold',
             fontSize: '1.125rem',
-            fontFamily: 'Work Sans, sans-serif'
+            fontFamily: 'Work Sans, sans-serif',
+            fontWeight: 600,
           }}
         >
           {selectedSidebarTab}
@@ -194,7 +195,8 @@ export default function Instruction({
         </Box>
       </Box>
 
-      <Box sx={{ flex: 1, display: 'flex', flexDirection: 'column', alignItems: 'start', justifyContent: 'start', width: '100%' }}>
+      <Box sx={{ flex: 1, display: 'flex', flexDirection: 'column', 
+        alignItems: 'start', justifyContent: 'start', width: 472, height: 489,}}>
         <Box sx={{ height: 350, display: 'flex', justifyContent: 'start', alignItems: 'flex-start', pt: 0, flexDirection: 'column' }}>
           {/* <video
             poster={poster_video}
@@ -229,6 +231,8 @@ export default function Instruction({
                 },
               boxShadow: 'none',
               fontFamily: 'Work Sans, sans-serif',
+              fontWeight: 500,
+              fontSize: 16,
               mt: 2,
               width: 106,
               height: 40,

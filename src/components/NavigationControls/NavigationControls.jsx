@@ -26,7 +26,7 @@ const NavigationControls = ({
   const showNext = !(isLastTab && isLastSection);
 
   return (
-    <Box sx={{ display: 'flex', justifyContent: 'flex-end', gap: 2, mt: 3 }}>
+    <Box sx={{ display: 'flex', justifyContent: 'flex-end', gap: 2, mt: 2 }}>
       {showBack && (
         <Button
           variant="contained"
